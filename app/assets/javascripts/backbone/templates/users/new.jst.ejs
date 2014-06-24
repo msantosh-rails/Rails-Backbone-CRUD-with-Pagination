@@ -1,0 +1,93 @@
+        <div class="container">
+</br>
+<div class="well">
+
+	<form id="new-user" name="user" class="form-horizontal">
+        <legend>Create User</legend>
+
+        <div class="control-group">
+
+            <label class="control-label">Name</label>
+
+            <div class="controls">
+                <div class="input-prepend">
+                <span class="add-on"><i class="icon-user"></i></span>
+		    <input type="text" class="input-xlarge" placeholder="Name" name="name" id="name" value="<%= name %>" autofocus>
+                </div>
+                <span for="name" class="error-label" id="name_error" style="display: inline;color:red;"></span>
+            </div>
+        </div>
+        <div class="control-group ">
+            <label class="control-label">Email</label>
+            <div class="controls">
+                <div class="input-prepend">
+                <span class="add-on"><i class="icon-user"></i></span>
+		    <input type="email" class="input-xlarge" placeholder="Email" name="email" id="email" value="<%= email %>" >
+                </div>
+                <span for="name" class="error-label" id="email_error" style="display: inline;color:red;"></span>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label">Street</label>
+            <div class="controls">
+                <div class="input-prepend">
+                <span class="add-on"><i class="icon-envelope"></i></span>
+                    <input type="text" class="input-xlarge" id="street" name="street" placeholder="Street" value="<%=street%>" >
+                </div>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label">City</label>
+            <div class="controls">
+                <div class="input-prepend">
+                <span class="add-on"><i class="icon-envelope"></i></span>
+                    <input type="text" class="input-xlarge" id="city" name="city" placeholder="City" value="<%=city%>" >
+                </div>
+            </div>
+        </div>
+        
+        <div class="control-group">
+            <label class="control-label">Country</label>
+            <div class="controls">
+                <div class="input-prepend">
+                <span class="add-on"><i class="icon-envelope"></i></span>
+			
+			<select onchange="print_state('state',this.selectedIndex);" id="country" name ="country"></select>
+                </div>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label">State</label>
+            <div class="controls">
+                <div class="input-prepend">
+                <span class="add-on"><i class="icon-envelope"></i></span>
+			<select name ="state" id ="state"></select>                
+<!--			<script language="javascript">print_country("country");</script>	-->
+		</div>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label">Phone</label>
+            <div class="controls">
+                <div class="input-prepend">
+                <span class="add-on"><i class="icon-envelope"></i></span>
+                    <input type="text" class="input-xlarge" id="phone" name="phone" placeholder="Phone Number" value="<%=phone%>" >
+                </div>
+            </div>
+        </div>
+
+ 
+        <div class="control-group">
+        <label class="control-label"></label>
+          <div class="controls">
+           <button type="submit" class="btn btn-success" >Create User</button>
+	<a href="#/index" class="btn btn-primary">Back</a>
+          </div>
+ 
+    </div>
+ 
+      </form>
+ 
+   </div>

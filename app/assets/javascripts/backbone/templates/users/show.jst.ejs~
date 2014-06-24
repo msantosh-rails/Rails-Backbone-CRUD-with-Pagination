@@ -1,0 +1,41 @@
+</br>
+<div class="well">
+<h3> User Info </h3>
+<p>
+  <b>Name:</b>
+  <%= name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= email %>
+</p>
+
+<p>
+  <b>Street:</b>
+  <%= street %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%= city %>
+</p>
+
+<p>
+  <b>Country:</b>
+  <%= country %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= state %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%= phone %>
+</p>
+<a href="#/index/1" class="btn btn-default">Back</a>
+<a href="#/<%= id %>/edit" class="btn btn-primary">Edit</a>
+</div>
+

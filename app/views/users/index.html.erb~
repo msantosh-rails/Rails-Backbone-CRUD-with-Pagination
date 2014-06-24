@@ -1,0 +1,96 @@
+<div id="users"></div>
+<div id="paginator"></div>
+<%#= paginate @users %>
+<%#= will_paginate @users %>
+<script type="text/javascript">
+  $(function() {
+
+    window.router = new Backboneapp.Routers.UsersRouter({users: <%= @users.to_json.html_safe -%>});
+    Backbone.history.start();
+  });
+</script>
+
+<script>
+      // Works exactly like Backbone.Collection.
+      var Issues = Backbone.PageableCollection.extend({
+
+        // url: "https://api.github.com/search/issues",
+
+        url: '/users' ,
+
+        // Initial pagination states
+        state: {
+          pageSize: 5,
+          sortKey: "updated",
+          order: 1
+        },
+
+        // You can remap the query parameters from `state` keys from
+        // the default to those your server supports
+        queryParams: {
+          totalPages: null,
+          totalRecords: null,
+          sortKey: "sort",
+          //q: "state:closed repo:jashkenas/backbone"
+        },
+
+        // get the state from Github's search API result
+        parseState: function (resp, queryParams, state, options) {
+          return {totalRecords: resp.total_count};
+        },
+
+        // get the actual records
+        parseRecords: function (resp, options) {
+          return resp.items;
+        }
+
+      });
+
+      var issues = new Issues();
+
+      var grid = new Backgrid.Grid({
+        columns: [{
+          name: "name",
+          cell: "string",
+          sortable: false,
+          editable: false
+        }, {
+           name: "email",
+           cell: "string",
+           sortable: false,
+           editable: false
+         }, {
+           name: "street",
+           cell: "text", // See the TextCell extension
+           sortable: false
+         }, {
+           name: "city",
+           cell: "integer"
+         }
+
+ 	{
+           name: "country",
+           cell: "string",
+           sortable: false,
+           editable: false
+         }, {
+           name: "state",
+           cell: "text", // See the TextCell extension
+           sortable: false
+         }, {
+           name: "phone",
+           cell: "integer"
+         }],
+
+        collection: issues
+      });
+
+      var paginator = new Backgrid.Extension.Paginator({
+        collection: issues
+      });
+
+      $("#users").append(grid.render().$el);
+      $("#paginator").append(paginator.render().$el);
+
+      issues.fetch({reset: true});
+    </script>

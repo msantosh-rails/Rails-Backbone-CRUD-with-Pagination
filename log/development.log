@@ -1,0 +1,4425 @@
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-16 08:24:12 +0530
+Processing by UsersController#index as HTML
+Completed 401 Unauthorized in 48.4ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-16 08:24:13 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/shared/_links.erb (7.4ms)
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/sessions/new.html.erb within layouts/application (120.7ms)
+Compiled backgrid-paginator.css  (0ms)  (pid 3804)
+Compiled backgrid-text-cell.css  (0ms)  (pid 3804)
+Compiled backgrid.css  (0ms)  (pid 3804)
+Compiled bootstrap-theme.css  (0ms)  (pid 3804)
+Compiled bootstrap.css  (1ms)  (pid 3804)
+Warning. Error encountered while saving cache /home/nyros/Documents/Practice/BACKBONE/Practice/Rails/Assignment/June16/backboneapp/tmp/cache/sass/7106ba1fc637f2da4918ecb73e7a0fbfb91a39dd/users.css.scssc: can't dump anonymous class #<Class:0x9ef9cec>
+Compiled users.css  (63ms)  (pid 3804)
+Compiled application.css  (285ms)  (pid 3804)
+Compiled jquery.js  (3ms)  (pid 3804)
+Compiled jquery_ujs.js  (0ms)  (pid 3804)
+Compiled underscore.js  (1ms)  (pid 3804)
+Compiled underscore.string.js  (1ms)  (pid 3804)
+Compiled backbone.js  (1ms)  (pid 3804)
+Compiled backbone.sync.rails.js  (0ms)  (pid 3804)
+Compiled backbone.modelbinder.js  (0ms)  (pid 3804)
+Compiled backbone.marionette.js  (0ms)  (pid 3804)
+Compiled backbone_rails_sync.js  (0ms)  (pid 3804)
+Compiled backbone_datalink.js  (0ms)  (pid 3804)
+Compiled backbone/templates/layouts/main.js  (240ms)  (pid 3804)
+Compiled backbone/templates/layouts/unauthenticated.js  (182ms)  (pid 3804)
+Compiled backbone/templates/shared/form_field_help.js  (174ms)  (pid 3804)
+Compiled backbone/templates/shared/notifications.js  (155ms)  (pid 3804)
+Compiled backbone/templates/unauthenticated/login.js  (143ms)  (pid 3804)
+Compiled backbone/templates/unauthenticated/retrieve_password.js  (146ms)  (pid 3804)
+Compiled backbone/templates/unauthenticated/signup.js  (192ms)  (pid 3804)
+Compiled backbone/templates/users/edit.js  (19ms)  (pid 3804)
+Compiled backbone/templates/users/index.js  (1ms)  (pid 3804)
+Compiled backbone/templates/users/new.js  (1ms)  (pid 3804)
+Compiled backbone/templates/users/show.js  (1ms)  (pid 3804)
+Compiled backbone/templates/users/user.js  (0ms)  (pid 3804)
+Compiled backbone/models/user.js  (322ms)  (pid 3804)
+Compiled backbone/models/user_password_recovery.js  (0ms)  (pid 3804)
+Compiled backbone/models/user_registration.js  (0ms)  (pid 3804)
+Compiled backbone/models/user_session.js  (0ms)  (pid 3804)
+Compiled backbone/views/layouts/main.js  (0ms)  (pid 3804)
+Compiled backbone/views/layouts/unauthenticated.js  (0ms)  (pid 3804)
+Compiled backbone/views/unauthenticated/login.js  (0ms)  (pid 3804)
+Compiled backbone/views/unauthenticated/retrieve_password.js  (4ms)  (pid 3804)
+Compiled backbone/views/unauthenticated/signup.js  (0ms)  (pid 3804)
+Compiled backbone/views/users/edit_view.js  (367ms)  (pid 3804)
+Compiled backbone/views/users/index_view.js  (364ms)  (pid 3804)
+Compiled backbone/views/users/new_view.js  (357ms)  (pid 3804)
+Compiled backbone/views/users/show_view.js  (312ms)  (pid 3804)
+Compiled backbone/views/users/user_view.js  (321ms)  (pid 3804)
+Compiled backbone/routers/users_router.js  (359ms)  (pid 3804)
+Compiled backbone/backboneapp.js  (5231ms)  (pid 3804)
+Compiled backbone.paginator.js  (1ms)  (pid 3804)
+Compiled backgrid.js  (1ms)  (pid 3804)
+Compiled backgrid-paginator.js  (1ms)  (pid 3804)
+Compiled backgrid-text-cell.js  (0ms)  (pid 3804)
+Compiled bootstrap.js  (1ms)  (pid 3804)
+Compiled handlebars.js  (1ms)  (pid 3804)
+Compiled monkeys.js  (0ms)  (pid 3804)
+Compiled init.js  (0ms)  (pid 3804)
+Compiled backbone/helpers/form_helpers.js  (0ms)  (pid 3804)
+Compiled backbone/helpers/notifications.js  (0ms)  (pid 3804)
+Compiled countries3.js  (46ms)  (pid 3804)
+Compiled users.js  (292ms)  (pid 3804)
+Compiled application.js  (6572ms)  (pid 3804)
+Completed 200 OK in 7569.0ms (Views: 7317.7ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-16 08:24:21 +0530
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-16 08:24:21 +0530
+Served asset /bootstrap-theme.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-16 08:24:21 +0530
+Served asset /bootstrap.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/backgrid-paginator.css?body=1" for 127.0.0.1 at 2014-06-16 08:24:21 +0530
+Served asset /backgrid-paginator.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/backgrid-text-cell.css?body=1" for 127.0.0.1 at 2014-06-16 08:24:21 +0530
+Served asset /backgrid-text-cell.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:21 +0530
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:21 +0530
+Served asset /backbone.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/backgrid.css?body=1" for 127.0.0.1 at 2014-06-16 08:24:21 +0530
+Served asset /backgrid.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-16 08:24:21 +0530
+Served asset /users.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/backbone.modelbinder.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:21 +0530
+Served asset /backbone.modelbinder.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/backbone.marionette.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:21 +0530
+Served asset /backbone.marionette.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:21 +0530
+Served asset /underscore.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:21 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/backbone/backboneapp.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:21 +0530
+Served asset /backbone/backboneapp.js - 304 Not Modified (82ms)
+
+
+Started GET "/assets/backbone/templates/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:21 +0530
+Served asset /backbone/templates/layouts/main.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:21 +0530
+Served asset /backbone_rails_sync.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone_datalink.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/backbone/templates/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/templates/layouts/unauthenticated.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone/templates/shared/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/templates/shared/notifications.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone/templates/shared/form_field_help.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/templates/shared/form_field_help.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/templates/unauthenticated/login.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/templates/unauthenticated/retrieve_password.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/templates/unauthenticated/signup.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/backbone/templates/users/new.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/templates/users/new.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/backbone/templates/users/show.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/templates/users/show.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/backbone/templates/users/index.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/templates/users/index.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/backbone/models/user.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/models/user.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone/models/user_password_recovery.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/models/user_password_recovery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone/models/user_registration.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/models/user_registration.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone/templates/users/edit.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/templates/users/edit.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone/models/user_session.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/models/user_session.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone/views/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/views/layouts/main.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone/views/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/views/layouts/unauthenticated.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/views/unauthenticated/login.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/views/unauthenticated/retrieve_password.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/views/unauthenticated/signup.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone/views/users/edit_view.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/views/users/edit_view.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone/views/users/new_view.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/views/users/new_view.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone/views/users/index_view.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/views/users/index_view.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone/views/users/show_view.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/views/users/show_view.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/backbone/routers/users_router.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/routers/users_router.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone.paginator.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone.paginator.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/underscore.string.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /underscore.string.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backgrid-paginator.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backgrid-paginator.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/backgrid-text-cell.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backgrid-text-cell.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /handlebars.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/monkeys.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /monkeys.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/init.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /init.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/backbone/helpers/form_helpers.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/helpers/form_helpers.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/backbone.sync.rails.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone.sync.rails.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/backbone/helpers/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/helpers/notifications.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/backbone/views/users/user_view.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/views/users/user_view.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone/templates/users/user.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backbone/templates/users/user.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backgrid.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /backgrid.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/countries3.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /countries3.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /users.js - 304 Not Modified (73ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-16 08:24:22 +0530
+Served asset /application.js - 304 Not Modified (135ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-16 08:38:50 +0530
+Processing by UsersController#index as HTML
+Completed 401 Unauthorized in 0.8ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-16 08:38:50 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/shared/_links.erb (0.9ms)
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/sessions/new.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 54.2ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/backgrid-paginator.css?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backgrid-paginator.css - 200 OK (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.css?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backgrid-text-cell.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /bootstrap-theme.css - 200 OK (0ms)
+
+
+Started GET "/assets/backgrid.css?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backgrid.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /underscore.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone.js - 200 OK (0ms)
+
+
+Started GET "/assets/underscore.string.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /underscore.string.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone.modelbinder.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone.modelbinder.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone.sync.rails.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone.sync.rails.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone.marionette.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone.marionette.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone_rails_sync.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/backboneapp.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/backboneapp.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone_datalink.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/templates/layouts/main.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/templates/layouts/unauthenticated.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/form_field_help.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/templates/shared/form_field_help.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/templates/shared/notifications.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/templates/unauthenticated/login.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/templates/unauthenticated/retrieve_password.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/templates/unauthenticated/signup.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/users/edit.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/templates/users/edit.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/users/index.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/templates/users/index.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/users/new.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/templates/users/new.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/users/show.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/templates/users/show.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/users/user.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/templates/users/user.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/models/user.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/models/user.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/models/user_password_recovery.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/models/user_password_recovery.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/models/user_registration.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/models/user_registration.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/models/user_session.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/models/user_session.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/views/layouts/main.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/views/unauthenticated/login.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/views/layouts/unauthenticated.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/views/unauthenticated/retrieve_password.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/views/unauthenticated/signup.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/views/users/edit_view.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/views/users/edit_view.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/views/users/index_view.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/views/users/index_view.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/views/users/new_view.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/views/users/new_view.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/views/users/show_view.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/views/users/show_view.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/views/users/user_view.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/views/users/user_view.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/routers/users_router.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/routers/users_router.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone.paginator.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone.paginator.js - 200 OK (0ms)
+
+
+Started GET "/assets/backgrid.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backgrid.js - 200 OK (0ms)
+
+
+Started GET "/assets/backgrid-paginator.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backgrid-paginator.js - 200 OK (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backgrid-text-cell.js - 200 OK (0ms)
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /handlebars.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/monkeys.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /monkeys.js - 200 OK (0ms)
+
+
+Started GET "/assets/init.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /init.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/helpers/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/helpers/notifications.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/helpers/form_helpers.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /backbone/helpers/form_helpers.js - 200 OK (0ms)
+
+
+Started GET "/assets/countries3.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /countries3.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-16 08:38:51 +0530
+Served asset /application.js - 200 OK (4ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-16 08:54:27 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/shared/_links.erb (1.0ms)
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/sessions/new.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 62.2ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.css?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backgrid-text-cell.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.css?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backgrid.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.css?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backgrid-paginator.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.modelbinder.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone.modelbinder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.string.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /underscore.string.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.sync.rails.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone.sync.rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.marionette.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone.marionette.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone_rails_sync.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone_datalink.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/templates/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/backboneapp.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/backboneapp.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/templates/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/templates/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/form_field_help.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/templates/shared/form_field_help.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/templates/shared/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/templates/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/templates/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/templates/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/index.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/templates/users/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/edit.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/templates/users/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/show.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/templates/users/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/new.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/templates/users/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/user.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/templates/users/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_registration.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/models/user_registration.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_password_recovery.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/models/user_password_recovery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/models/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_session.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/models/user_session.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/backbone/views/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/views/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/views/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/views/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/views/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/views/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/edit_view.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/views/users/edit_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/index_view.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/views/users/index_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/new_view.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/views/users/new_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/show_view.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/views/users/show_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/user_view.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/views/users/user_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.paginator.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone.paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backgrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/routers/users_router.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/routers/users_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backgrid-paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backgrid-text-cell.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /handlebars.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/monkeys.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /monkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/init.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/form_helpers.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/helpers/form_helpers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /backbone/helpers/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/countries3.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /countries3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-16 08:54:28 +0530
+Served asset /application.js - 304 Not Modified (84ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-06-16 09:41:10 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OwlEz8SaD02E30VCJfiS9MdHSYfwV+57jGaYqBBcDK8=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Completed 401 Unauthorized in 2.1ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OwlEz8SaD02E30VCJfiS9MdHSYfwV+57jGaYqBBcDK8=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/shared/_links.erb (0.9ms)
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/sessions/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 50.8ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backgrid-paginator.css?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backgrid-paginator.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.css?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backgrid-text-cell.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.css?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backgrid.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.string.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /underscore.string.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.sync.rails.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone.sync.rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.marionette.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone.marionette.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.modelbinder.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone.modelbinder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone_rails_sync.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone_datalink.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/backboneapp.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/backboneapp.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/templates/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/templates/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/templates/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/templates/shared/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/form_field_help.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/templates/shared/form_field_help.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/templates/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/templates/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/templates/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/edit.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/templates/users/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/index.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/templates/users/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/new.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/templates/users/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/show.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/templates/users/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/templates/users/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/models/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_password_recovery.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/models/user_password_recovery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_registration.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/models/user_registration.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_session.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/models/user_session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/views/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/views/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/views/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/views/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/views/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/edit_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/views/users/edit_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/index_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/views/users/index_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/new_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/views/users/new_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/show_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/views/users/show_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/user_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/views/users/user_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backgrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/routers/users_router.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/routers/users_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone.paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backgrid-paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /handlebars.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backgrid-text-cell.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/monkeys.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /monkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/init.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/form_helpers.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/helpers/form_helpers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /backbone/helpers/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/countries3.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /countries3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:11 +0530
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-06-16 09:41:50 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OwlEz8SaD02E30VCJfiS9MdHSYfwV+57jGaYqBBcDK8=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Completed 401 Unauthorized in 2.7ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OwlEz8SaD02E30VCJfiS9MdHSYfwV+57jGaYqBBcDK8=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/shared/_links.erb (1.0ms)
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/sessions/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 58.0ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.css?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backgrid-paginator.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.css?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backgrid-text-cell.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.css?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backgrid.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.string.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /underscore.string.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.sync.rails.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone.sync.rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.modelbinder.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone.modelbinder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.marionette.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone.marionette.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone_rails_sync.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/backboneapp.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/backboneapp.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/templates/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/templates/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone_datalink.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/templates/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/form_field_help.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/templates/shared/form_field_help.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/templates/shared/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/templates/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/templates/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/templates/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/edit.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/templates/users/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/index.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/templates/users/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/new.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/templates/users/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/show.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/templates/users/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/templates/users/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/models/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_password_recovery.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/models/user_password_recovery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_registration.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/models/user_registration.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_session.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/models/user_session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/views/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/views/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/views/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/views/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/views/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/index_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/views/users/index_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/edit_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/views/users/edit_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/new_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/views/users/new_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/show_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/views/users/show_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/routers/users_router.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/routers/users_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/user_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backbone/views/users/user_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:51 +0530
+Served asset /backgrid-text-cell.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:52 +0530
+Served asset /backgrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:52 +0530
+Served asset /backgrid-paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:52 +0530
+Served asset /backbone.paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/monkeys.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:52 +0530
+Served asset /monkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:52 +0530
+Served asset /handlebars.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:52 +0530
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/init.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:52 +0530
+Served asset /init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:52 +0530
+Served asset /backbone/helpers/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/form_helpers.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:52 +0530
+Served asset /backbone/helpers/form_helpers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/countries3.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:52 +0530
+Served asset /countries3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:52 +0530
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:52 +0530
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-06-16 09:41:58 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OwlEz8SaD02E30VCJfiS9MdHSYfwV+57jGaYqBBcDK8=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Completed 401 Unauthorized in 1.2ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OwlEz8SaD02E30VCJfiS9MdHSYfwV+57jGaYqBBcDK8=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/shared/_links.erb (1.0ms)
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/sessions/new.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 57.3ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-16 09:41:58 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.css?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backgrid-paginator.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.css?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backgrid-text-cell.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.css?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backgrid.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /underscore.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/underscore.string.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /underscore.string.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/backbone.sync.rails.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone.sync.rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.modelbinder.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone.modelbinder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone_datalink.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.marionette.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone.marionette.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone_rails_sync.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/templates/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/templates/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/backboneapp.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/backboneapp.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/templates/shared/form_field_help.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/templates/shared/form_field_help.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/templates/shared/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/templates/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/templates/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/templates/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/index.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/templates/users/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/new.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/templates/users/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/edit.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/templates/users/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/show.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/templates/users/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/templates/users/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/models/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_registration.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/models/user_registration.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_password_recovery.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/models/user_password_recovery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_session.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/models/user_session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/views/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/views/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/views/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/views/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/views/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/edit_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/views/users/edit_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/index_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/views/users/index_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/new_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/views/users/new_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/show_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/views/users/show_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/user_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/views/users/user_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/routers/users_router.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/routers/users_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone.paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backgrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backgrid-paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backgrid-text-cell.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/monkeys.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /monkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/init.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /handlebars.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/form_helpers.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/helpers/form_helpers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /backbone/helpers/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/countries3.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /countries3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-16 09:41:59 +0530
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-06-16 09:42:21 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OwlEz8SaD02E30VCJfiS9MdHSYfwV+57jGaYqBBcDK8=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Completed 401 Unauthorized in 1.2ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OwlEz8SaD02E30VCJfiS9MdHSYfwV+57jGaYqBBcDK8=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/shared/_links.erb (0.9ms)
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/sessions/new.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 58.2ms (Views: 56.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:22 +0530
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/backgrid-paginator.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:22 +0530
+Served asset /backgrid-paginator.css - 200 OK (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:22 +0530
+Served asset /backgrid-text-cell.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:22 +0530
+Served asset /bootstrap-theme.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:22 +0530
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/backgrid.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:22 +0530
+Served asset /backgrid.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:22 +0530
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:22 +0530
+Served asset /jquery.js - 200 OK (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:22 +0530
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:22 +0530
+Served asset /underscore.js - 200 OK (0ms)
+
+
+Started GET "/assets/underscore.string.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /underscore.string.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone.sync.rails.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone.sync.rails.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone.modelbinder.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone.modelbinder.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone.marionette.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone.marionette.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone_rails_sync.js - 200 OK (76ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone_datalink.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/backboneapp.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/backboneapp.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/templates/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/templates/layouts/main.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/templates/layouts/unauthenticated.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/form_field_help.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/templates/shared/form_field_help.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/templates/shared/notifications.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/templates/unauthenticated/login.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/users/edit.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/templates/users/edit.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/templates/unauthenticated/retrieve_password.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/templates/unauthenticated/signup.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/users/index.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/templates/users/index.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/users/new.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/templates/users/new.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/users/show.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/templates/users/show.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/users/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/templates/users/user.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/models/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/models/user.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/models/user_password_recovery.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/models/user_password_recovery.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/models/user_registration.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/models/user_registration.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/models/user_session.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/models/user_session.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/views/layouts/main.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/views/layouts/unauthenticated.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/views/unauthenticated/login.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/views/unauthenticated/retrieve_password.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/views/unauthenticated/signup.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/views/users/edit_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/views/users/edit_view.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/views/users/index_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/views/users/index_view.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/views/users/new_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/views/users/new_view.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/views/users/show_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/views/users/show_view.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/views/users/user_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/views/users/user_view.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/routers/users_router.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/routers/users_router.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone.paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone.paginator.js - 200 OK (0ms)
+
+
+Started GET "/assets/backgrid.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backgrid.js - 200 OK (0ms)
+
+
+Started GET "/assets/backgrid-paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backgrid-paginator.js - 200 OK (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backgrid-text-cell.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /handlebars.js - 200 OK (0ms)
+
+
+Started GET "/assets/monkeys.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /monkeys.js - 200 OK (0ms)
+
+
+Started GET "/assets/init.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /init.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/helpers/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/helpers/notifications.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/helpers/form_helpers.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /backbone/helpers/form_helpers.js - 200 OK (0ms)
+
+
+Started GET "/assets/countries3.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /countries3.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:23 +0530
+Served asset /application.js - 200 OK (4ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-06-16 09:42:40 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OwlEz8SaD02E30VCJfiS9MdHSYfwV+57jGaYqBBcDK8=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Completed 401 Unauthorized in 1.2ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OwlEz8SaD02E30VCJfiS9MdHSYfwV+57jGaYqBBcDK8=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/shared/_links.erb (1.0ms)
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/sessions/new.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 67.9ms (Views: 66.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:40 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:40 +0530
+Served asset /backgrid.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:40 +0530
+Served asset /backgrid-paginator.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:40 +0530
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:40 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:40 +0530
+Served asset /backgrid-text-cell.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:40 +0530
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:40 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:40 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:40 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.string.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:40 +0530
+Served asset /underscore.string.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:40 +0530
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.sync.rails.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:40 +0530
+Served asset /backbone.sync.rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.modelbinder.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:40 +0530
+Served asset /backbone.modelbinder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.marionette.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:40 +0530
+Served asset /backbone.marionette.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:40 +0530
+Served asset /backbone_rails_sync.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:40 +0530
+Served asset /backbone_datalink.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/backboneapp.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:40 +0530
+Served asset /backbone/backboneapp.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/templates/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:40 +0530
+Served asset /backbone/templates/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/form_field_help.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:40 +0530
+Served asset /backbone/templates/shared/form_field_help.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:40 +0530
+Served asset /backbone/templates/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/templates/shared/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/templates/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/templates/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/templates/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/index.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/templates/users/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/edit.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/templates/users/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/new.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/templates/users/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/show.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/templates/users/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/templates/users/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_registration.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/models/user_registration.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_session.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/models/user_session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/models/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_password_recovery.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/models/user_password_recovery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/views/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/views/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/views/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/views/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/edit_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/views/users/edit_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/views/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/index_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/views/users/index_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/new_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/views/users/new_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/show_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/views/users/show_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/user_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/views/users/user_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/routers/users_router.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/routers/users_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backgrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone.paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backgrid-text-cell.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backgrid-paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /handlebars.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/monkeys.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /monkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/init.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/form_helpers.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/helpers/form_helpers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /backbone/helpers/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/countries3.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /countries3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:41 +0530
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-06-16 09:42:54 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OwlEz8SaD02E30VCJfiS9MdHSYfwV+57jGaYqBBcDK8=", "user"=>{"email"=>"santossh.janussj@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Completed 401 Unauthorized in 1.3ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OwlEz8SaD02E30VCJfiS9MdHSYfwV+57jGaYqBBcDK8=", "user"=>{"email"=>"santossh.janussj@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/shared/_links.erb (1.0ms)
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/sessions/new.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 52.6ms (Views: 51.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:54 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:54 +0530
+Served asset /backgrid.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:54 +0530
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:54 +0530
+Served asset /backgrid-text-cell.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:54 +0530
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:54 +0530
+Served asset /backgrid-paginator.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:54 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:54 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:54 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:54 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.string.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:54 +0530
+Served asset /underscore.string.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:54 +0530
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.sync.rails.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:54 +0530
+Served asset /backbone.sync.rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.marionette.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:54 +0530
+Served asset /backbone.marionette.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:54 +0530
+Served asset /backbone_datalink.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:54 +0530
+Served asset /backbone_rails_sync.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.modelbinder.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:54 +0530
+Served asset /backbone.modelbinder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/backboneapp.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:54 +0530
+Served asset /backbone/backboneapp.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/templates/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:54 +0530
+Served asset /backbone/templates/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:54 +0530
+Served asset /backbone/templates/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/form_field_help.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:54 +0530
+Served asset /backbone/templates/shared/form_field_help.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/templates/shared/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/templates/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/templates/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/templates/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/index.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/templates/users/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/edit.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/templates/users/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/new.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/templates/users/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/models/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/show.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/templates/users/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/templates/users/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_password_recovery.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/models/user_password_recovery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_registration.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/models/user_registration.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/views/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_session.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/models/user_session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/views/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/views/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/views/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/views/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/new_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/views/users/new_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/edit_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/views/users/edit_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/index_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/views/users/index_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/show_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/views/users/show_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/user_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/views/users/user_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone.paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/routers/users_router.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/routers/users_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backgrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backgrid-text-cell.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backgrid-paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /handlebars.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/monkeys.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /monkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/init.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/form_helpers.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/helpers/form_helpers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /backbone/helpers/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/countries3.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /countries3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:55 +0530
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/shared/_links.erb (1.0ms)
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/registrations/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 77.2ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backgrid-paginator.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backgrid.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.css?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backgrid-text-cell.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.string.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /underscore.string.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.sync.rails.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backbone.sync.rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.modelbinder.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backbone.modelbinder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.marionette.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backbone.marionette.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backbone_rails_sync.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backbone_datalink.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backbone/templates/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/backboneapp.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backbone/backboneapp.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/templates/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backbone/templates/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/form_field_help.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backbone/templates/shared/form_field_help.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backbone/templates/shared/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backbone/templates/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backbone/templates/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backbone/templates/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/edit.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backbone/templates/users/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/new.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backbone/templates/users/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/index.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backbone/templates/users/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backbone/templates/users/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/show.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backbone/templates/users/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backbone/models/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_password_recovery.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backbone/models/user_password_recovery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_registration.js?body=1" for 127.0.0.1 at 2014-06-16 09:42:59 +0530
+Served asset /backbone/models/user_registration.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_session.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /backbone/models/user_session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /backbone/views/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /backbone/views/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /backbone/views/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /backbone/views/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /backbone/views/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/edit_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /backbone/views/users/edit_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/index_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /backbone/views/users/index_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/new_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /backbone/views/users/new_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/show_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /backbone/views/users/show_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/user_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /backbone/views/users/user_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /backbone.paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/routers/users_router.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /backbone/routers/users_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /backgrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /backgrid-paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /backgrid-text-cell.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /handlebars.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/init.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/monkeys.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /monkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/form_helpers.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /backbone/helpers/form_helpers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /backbone/helpers/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/countries3.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /countries3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:00 +0530
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2014-06-16 09:43:03 +0530
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OwlEz8SaD02E30VCJfiS9MdHSYfwV+57jGaYqBBcDK8=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/shared/_links.erb (0.7ms)
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/registrations/new.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 170.9ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:03 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backgrid-paginator.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backgrid-text-cell.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backgrid.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.string.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /underscore.string.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.sync.rails.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone.sync.rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.modelbinder.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone.modelbinder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.marionette.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone.marionette.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone_rails_sync.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/backboneapp.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/backboneapp.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone_datalink.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/templates/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/templates/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/form_field_help.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/templates/shared/form_field_help.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/templates/shared/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/templates/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/templates/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/templates/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/index.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/templates/users/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/edit.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/templates/users/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/show.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/templates/users/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/new.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/templates/users/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/models/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/templates/users/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_password_recovery.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/models/user_password_recovery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_registration.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/models/user_registration.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/views/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_session.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/models/user_session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/views/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/views/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/views/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/views/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/index_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/views/users/index_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/edit_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/views/users/edit_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/new_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/views/users/new_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/user_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/views/users/user_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/show_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/views/users/show_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/routers/users_router.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/routers/users_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone.paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backgrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backgrid-paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backgrid-text-cell.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /handlebars.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/monkeys.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /monkeys.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/init.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/form_helpers.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/helpers/form_helpers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /backbone/helpers/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/countries3.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /countries3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:04 +0530
+Served asset /application.js - 304 Not Modified (62ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2014-06-16 09:43:08 +0530
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OwlEz8SaD02E30VCJfiS9MdHSYfwV+57jGaYqBBcDK8=", "user"=>{"email"=>"santosh.janussj@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.7ms)[0m  SELECT 1 AS one FROM `users` WHERE `users`.`email` = BINARY 'santosh.janussj@gmail.com' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/shared/_links.erb (0.6ms)
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/registrations/new.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 326.6ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/backgrid-paginator.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backgrid-paginator.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backgrid-text-cell.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backgrid.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.string.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /underscore.string.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone.sync.rails.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone.sync.rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.modelbinder.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone.modelbinder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.marionette.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone.marionette.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone_rails_sync.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone_datalink.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/backboneapp.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone/backboneapp.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/templates/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone/templates/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone/templates/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/form_field_help.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone/templates/shared/form_field_help.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone/templates/shared/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone/templates/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone/templates/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/new.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone/templates/users/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone/templates/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/edit.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone/templates/users/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/index.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone/templates/users/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/show.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone/templates/users/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone/templates/users/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone/models/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_password_recovery.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone/models/user_password_recovery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_registration.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone/models/user_registration.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_session.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone/models/user_session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone/views/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone/views/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone/views/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone/views/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:09 +0530
+Served asset /backbone/views/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/edit_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:10 +0530
+Served asset /backbone/views/users/edit_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/new_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:10 +0530
+Served asset /backbone/views/users/new_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/user_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:10 +0530
+Served asset /backbone/views/users/user_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/index_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:10 +0530
+Served asset /backbone/views/users/index_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/show_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:10 +0530
+Served asset /backbone/views/users/show_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/routers/users_router.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:10 +0530
+Served asset /backbone/routers/users_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:10 +0530
+Served asset /backbone.paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:10 +0530
+Served asset /backgrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:10 +0530
+Served asset /backgrid-paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:10 +0530
+Served asset /backgrid-text-cell.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:10 +0530
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:10 +0530
+Served asset /handlebars.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/monkeys.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:10 +0530
+Served asset /monkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/init.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:10 +0530
+Served asset /init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/form_helpers.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:10 +0530
+Served asset /backbone/helpers/form_helpers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:10 +0530
+Served asset /backbone/helpers/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/countries3.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:10 +0530
+Served asset /countries3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:10 +0530
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:10 +0530
+Served asset /application.js - 304 Not Modified (64ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2014-06-16 09:43:18 +0530
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OwlEz8SaD02E30VCJfiS9MdHSYfwV+57jGaYqBBcDK8=", "user"=>{"email"=>"santosh.janussj@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM `users` WHERE `users`.`email` = BINARY 'santosh.janussj@gmail.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/registrations/new.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 149.8ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:18 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:18 +0530
+Served asset /backgrid-paginator.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:18 +0530
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:18 +0530
+Served asset /backgrid.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:18 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:18 +0530
+Served asset /backgrid-text-cell.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:18 +0530
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /underscore.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/underscore.string.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /underscore.string.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.sync.rails.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone.sync.rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.modelbinder.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone.modelbinder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.marionette.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone.marionette.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone_rails_sync.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone_datalink.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/templates/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/backboneapp.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/backboneapp.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/templates/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/templates/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/form_field_help.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/templates/shared/form_field_help.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/templates/shared/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/templates/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/templates/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/edit.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/templates/users/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/index.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/templates/users/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/templates/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/show.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/templates/users/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/new.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/templates/users/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/templates/users/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/models/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_registration.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/models/user_registration.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_password_recovery.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/models/user_password_recovery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/views/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/views/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_session.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/models/user_session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/views/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/views/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/views/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/edit_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/views/users/edit_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/index_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/views/users/index_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/new_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/views/users/new_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/show_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/views/users/show_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/user_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/views/users/user_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone.paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/routers/users_router.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/routers/users_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backgrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backgrid-paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backgrid-text-cell.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /handlebars.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/monkeys.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /monkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/init.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/form_helpers.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/helpers/form_helpers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /backbone/helpers/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/countries3.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /countries3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:19 +0530
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2014-06-16 09:43:29 +0530
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OwlEz8SaD02E30VCJfiS9MdHSYfwV+57jGaYqBBcDK8=", "user"=>{"email"=>"santosh.janussj@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT 1 AS one FROM `users` WHERE `users`.`email` = BINARY 'santosh.janussj@gmail.com' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/registrations/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 150.8ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:29 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:29 +0530
+Served asset /backgrid-paginator.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:29 +0530
+Served asset /backgrid-text-cell.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:29 +0530
+Served asset /backgrid.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:29 +0530
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:29 +0530
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:29 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:29 +0530
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/underscore.string.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:29 +0530
+Served asset /underscore.string.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:29 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:29 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone.sync.rails.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:29 +0530
+Served asset /backbone.sync.rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.modelbinder.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone.modelbinder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.marionette.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone.marionette.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone_datalink.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone_rails_sync.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/templates/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/backboneapp.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/backboneapp.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/templates/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/templates/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/form_field_help.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/templates/shared/form_field_help.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/templates/shared/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/templates/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/templates/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/templates/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/edit.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/templates/users/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/index.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/templates/users/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/new.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/templates/users/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/show.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/templates/users/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/templates/users/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/models/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_password_recovery.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/models/user_password_recovery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_registration.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/models/user_registration.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_session.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/models/user_session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/views/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/views/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/views/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/views/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/index_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/views/users/index_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/edit_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/views/users/edit_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/views/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/new_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/views/users/new_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/show_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/views/users/show_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/user_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/views/users/user_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/routers/users_router.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/routers/users_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone.paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backgrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backgrid-paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backgrid-text-cell.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /handlebars.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/monkeys.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /monkeys.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/init.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/form_helpers.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/helpers/form_helpers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /backbone/helpers/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/countries3.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /countries3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:30 +0530
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OwlEz8SaD02E30VCJfiS9MdHSYfwV+57jGaYqBBcDK8=", "user"=>{"email"=>"santsosh.janussj@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.7ms)[0m  [1mSELECT 1 AS one FROM `users` WHERE `users`.`email` = BINARY 'santsosh.janussj@gmail.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/registrations/new.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 152.0ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backgrid-paginator.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backgrid-text-cell.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backgrid.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.string.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /underscore.string.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.modelbinder.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backbone.modelbinder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.sync.rails.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backbone.sync.rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.marionette.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backbone.marionette.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backbone_rails_sync.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backbone_datalink.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/backboneapp.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backbone/backboneapp.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/templates/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backbone/templates/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backbone/templates/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/form_field_help.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backbone/templates/shared/form_field_help.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backbone/templates/shared/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backbone/templates/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backbone/templates/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/edit.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backbone/templates/users/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backbone/templates/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/index.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backbone/templates/users/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/new.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backbone/templates/users/new.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/templates/users/show.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backbone/templates/users/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backbone/models/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/user.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backbone/templates/users/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_password_recovery.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:48 +0530
+Served asset /backbone/models/user_password_recovery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_registration.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /backbone/models/user_registration.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_session.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /backbone/models/user_session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /backbone/views/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /backbone/views/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /backbone/views/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /backbone/views/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /backbone/views/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/edit_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /backbone/views/users/edit_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/new_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /backbone/views/users/new_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/show_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /backbone/views/users/show_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/routers/users_router.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /backbone/routers/users_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/user_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /backbone/views/users/user_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/index_view.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /backbone/views/users/index_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /backbone.paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /backgrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /backgrid-paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /backgrid-text-cell.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /handlebars.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/monkeys.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /monkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/init.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/form_helpers.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /backbone/helpers/form_helpers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/countries3.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /countries3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /backbone/helpers/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-16 09:43:49 +0530
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-16 10:05:13 +0530
+Processing by UsersController#index as HTML
+Completed 401 Unauthorized in 0.6ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-16 10:05:13 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/sessions/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 49.3ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.css?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backgrid-paginator.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.css?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backgrid-text-cell.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.css?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backgrid.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.string.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /underscore.string.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.sync.rails.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone.sync.rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.modelbinder.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone.modelbinder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.marionette.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone.marionette.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone_rails_sync.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone_datalink.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/backboneapp.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/backboneapp.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/templates/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/templates/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/templates/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/form_field_help.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/templates/shared/form_field_help.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/templates/shared/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/templates/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/templates/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/templates/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/edit.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/templates/users/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/index.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/templates/users/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/new.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/templates/users/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/show.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/templates/users/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/user.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/templates/users/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/models/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_password_recovery.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/models/user_password_recovery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_registration.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/models/user_registration.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_session.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/models/user_session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/views/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/views/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/views/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/views/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/edit_view.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/views/users/edit_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/views/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/index_view.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/views/users/index_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/new_view.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/views/users/new_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/show_view.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/views/users/show_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/user_view.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/views/users/user_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/routers/users_router.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/routers/users_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.paginator.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone.paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backgrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backgrid-paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backgrid-text-cell.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /handlebars.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/monkeys.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /monkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/init.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/form_helpers.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/helpers/form_helpers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /backbone/helpers/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/countries3.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /countries3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-16 10:05:14 +0530
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-16 10:28:28 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/shared/_links.erb (1.0ms)
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/sessions/new.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 90.0ms (Views: 85.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-16 10:28:28 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.css?body=1" for 127.0.0.1 at 2014-06-16 10:28:28 +0530
+Served asset /backgrid-paginator.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.css?body=1" for 127.0.0.1 at 2014-06-16 10:28:28 +0530
+Served asset /backgrid-text-cell.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.css?body=1" for 127.0.0.1 at 2014-06-16 10:28:28 +0530
+Served asset /backgrid.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-16 10:28:28 +0530
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-16 10:28:28 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-16 10:28:28 +0530
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:28 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.string.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /underscore.string.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.sync.rails.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone.sync.rails.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/backbone.modelbinder.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone.modelbinder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.marionette.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone.marionette.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone_rails_sync.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone_datalink.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/backboneapp.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/backboneapp.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/templates/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/templates/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/templates/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/form_field_help.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/templates/shared/form_field_help.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/templates/shared/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/templates/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/templates/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/templates/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/edit.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/templates/users/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/index.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/templates/users/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/show.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/templates/users/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/user.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/templates/users/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/new.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/templates/users/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/models/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_password_recovery.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/models/user_password_recovery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_registration.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/models/user_registration.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_session.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/models/user_session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/views/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/views/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/views/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/views/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/views/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/edit_view.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/views/users/edit_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/index_view.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/views/users/index_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/new_view.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/views/users/new_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/show_view.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/views/users/show_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/user_view.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/views/users/user_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/routers/users_router.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone/routers/users_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.paginator.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backbone.paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backgrid-paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:29 +0530
+Served asset /backgrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:30 +0530
+Served asset /backgrid-text-cell.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:30 +0530
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:30 +0530
+Served asset /handlebars.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/monkeys.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:30 +0530
+Served asset /monkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/init.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:30 +0530
+Served asset /init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/form_helpers.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:30 +0530
+Served asset /backbone/helpers/form_helpers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:30 +0530
+Served asset /backbone/helpers/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/countries3.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:30 +0530
+Served asset /countries3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:30 +0530
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-16 10:28:30 +0530
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-16 10:46:39 +0530
+Processing by UsersController#index as HTML
+Completed 401 Unauthorized in 0.7ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-16 10:46:39 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /home/nyros/.rvm/gems/ruby-1.9.3-p547/gems/devise-3.2.4/app/views/devise/sessions/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 52.9ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/backgrid-paginator.css?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /backgrid-paginator.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.css?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /backgrid-text-cell.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.css?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /backgrid.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.string.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /underscore.string.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.sync.rails.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /backbone.sync.rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.modelbinder.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /backbone.modelbinder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.marionette.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /backbone.marionette.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /backbone_rails_sync.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /backbone_datalink.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /backbone/templates/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/backboneapp.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /backbone/backboneapp.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/templates/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /backbone/templates/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/form_field_help.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /backbone/templates/shared/form_field_help.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/shared/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /backbone/templates/shared/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /backbone/templates/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /backbone/templates/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/edit.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /backbone/templates/users/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /backbone/templates/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/index.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /backbone/templates/users/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/new.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /backbone/templates/users/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/show.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:40 +0530
+Served asset /backbone/templates/users/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/users/user.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /backbone/templates/users/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_password_recovery.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /backbone/models/user_password_recovery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_registration.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /backbone/models/user_registration.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /backbone/models/user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/main.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /backbone/views/layouts/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/user_session.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /backbone/models/user_session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/layouts/unauthenticated.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /backbone/views/layouts/unauthenticated.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/login.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /backbone/views/unauthenticated/login.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/retrieve_password.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /backbone/views/unauthenticated/retrieve_password.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/unauthenticated/signup.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /backbone/views/unauthenticated/signup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/edit_view.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /backbone/views/users/edit_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/index_view.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /backbone/views/users/index_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/new_view.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /backbone/views/users/new_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/show_view.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /backbone/views/users/show_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/users/user_view.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /backbone/views/users/user_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/routers/users_router.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /backbone/routers/users_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.paginator.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /backbone.paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /backgrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-paginator.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /backgrid-paginator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backgrid-text-cell.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /backgrid-text-cell.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /handlebars.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/monkeys.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /monkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/init.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/form_helpers.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /backbone/helpers/form_helpers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/countries3.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /countries3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/helpers/notifications.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /backbone/helpers/notifications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-16 10:46:41 +0530
+Served asset /application.js - 304 Not Modified (4ms)

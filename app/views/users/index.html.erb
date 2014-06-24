@@ -1,0 +1,190 @@
+<a href="/users/sign_out" data-method="delete">Sign out</a>
+
+<div id="users"></div>
+
+<div id="grid"></div>
+<div id="paginator"></div>
+
+<%#= paginate @users %>
+<%#= will_paginate @users %>
+<script type="text/javascript">
+  $(function() {
+
+    window.router = new Backboneapp.Routers.UsersRouter({users: <%= @users.to_json.html_safe -%>});
+    Backbone.history.start();
+  });
+</script>
+
+<script type="text/javascript">
+      // Works exactly like Backbone.Collection.
+      var Issues = Backbone.PageableCollection.extend({
+
+        // url: "https://api.github.com/search/issues",
+
+        url: '/users' ,
+
+        // Initial pagination states
+        state: {
+          pageSize: 5,
+          sortKey: "city",
+          order: 1
+        },
+
+        // You can remap the query parameters from `state` keys from
+        // the default to those your server supports
+        queryParams: {
+          totalPages: null,
+          totalRecords: null,
+          sortKey: "sort",
+          //q: "state:closed repo:jashkenas/backbone"
+        },
+
+        // get the state from Github's search API result
+        parseState: function (resp, queryParams, state, options) {
+          return {totalRecords: resp.total_count };
+        },
+
+        // get the actual records
+        parseRecords: function (resp, options) {
+          return resp.users;
+        }
+
+      });
+
+
+      var AddCell = Backgrid.Cell.extend({
+        template: _.template('<a href="#" class="btn btn-primary">Show</a>'),
+        events: {
+          "click": "showRow"
+        },
+        showRow: function (e) {
+          e.preventDefault();
+          var view = new Backboneapp.Views.Users.ShowView({model: this.model})
+          $("#grid").html(view.render().el)
+//          $('#myModal').modal('show')
+        },
+        render: function () {
+          this.$el.html(this.template({id: this.model.id}));
+          this.delegateEvents();
+          return this;
+        }
+      });
+
+
+/*      var EditCell = Backgrid.Cell.extend({
+        template: _.template('<a href="#" class="btn btn-small">Edit</a>'),
+        events: {
+          "click": "editRow"
+        },
+        editRow: function (e) {
+          e.preventDefault();
+          var view = new Backboneapp.Views.Users.EditView({model: this.model})
+          $("#grid").html(view.render().el)
+          print_country("country")
+          $("#country").val(this.model.get("country"))
+          $("#state").val(this.model.get("state"))
+//          $('#myModal').modal('show')
+        },
+        render: function () {
+          this.$el.html(this.template({id: this.model.id}));
+          this.delegateEvents();
+          return this;
+        }
+      });*/
+
+
+      var DeleteCell = Backgrid.Cell.extend({
+        template: _.template('<a href="#" class="btn btn-danger ">Destroy</a>'),
+        events: {
+          "click": "deleteRow"
+        },
+          
+         
+         
+        deleteRow: function (e) {
+
+	  	  var res = confirm("Are you Sure");
+          e.preventDefault();
+          if (res)
+		  {
+	       	this.model.destroy();
+            console.log("Row Deleted");
+          }
+          //this.model.collection.remove(this.model);
+          
+        },
+        render: function () {
+          this.$el.html(this.template());
+          this.delegateEvents();
+          return this;
+        }
+      });
+
+
+      var issues = new Issues();
+
+      var grid = new Backgrid.Grid({
+        columns: [{
+          name: "name",
+          cell: "string",
+          sortable: false,
+          editable: false
+        }, {
+           name: "email",
+           cell: "string",
+           sortable: false,
+           editable: false
+         }, {
+           name: "street",
+           cell: "string", // See the TextCell extension
+           editable: false,
+           sortable: false
+         }, {
+           name: "city",
+           cell: "string",
+           editable: false,
+           sortable: false
+         },
+  	{
+           name: "country",
+           cell: "string",
+           sortable: false,
+           editable: false
+         }, {
+           name: "state",
+           cell: "string", // See the TextCell extension
+           editable: false,
+           sortable: false
+         }, {
+           name: "phone",
+           cell: "string",
+           editable: false,
+           sortable: false
+         }, {
+	    name: "",
+	    label: "",
+	    cell: "uri", // Renders the value in an HTML anchor element
+           editable: false,
+           sortable: false
+
+    	},
+        {
+          cell: AddCell
+        },
+        
+        {
+          cell: DeleteCell
+        }],
+	
+        collection: issues
+      });
+
+      var paginator = new Backgrid.Extension.Paginator({
+        collection: issues
+      });
+
+      $("#grid").append(grid.render().$el);
+      $("#paginator").append(paginator.render().$el);
+
+      issues.fetch({reset: true});
+    </script> 
